@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # AWS VM shadowsocks port got blocked too often..
+# Need root authority/sudo to execute this script.
 
 echo "Stop shadowsocks..."
 ssserver -d stop
